@@ -1,0 +1,26 @@
+{
+    "name": "zeeshan/module-virtualproduct",
+    "description": "custom attributes to be added to virtual products",
+    "type": "magento2-module",
+    "license": "OSL-3.0",
+    "authors": [
+        {
+            "name": "Mage2Gen",
+            "email": "info@mage2gen.com"
+        },
+        {
+            "name": "Zeeshan Khuwaja",
+            "email": "zeeshan.khuwaja110@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Zeeshan\\VirtualProduct\\": ""
+        },
+        "files": [
+            "registration.php"
+        ]
+    }
+}
